@@ -14,7 +14,7 @@ public class Application2 {
 
         try {
 
-            /* 설명. 프로젝트를 연 위치에 따라 경로가 갈리므로 주의할 것. */
+            /* 필기. 프로젝트를 연 위치에 따라 경로가 갈리므로 주의할 것. */
             prop.load(new FileReader
                     ("src/main/java/com/ohgiraffers/section01/connection/jdbc-config.properties"));
 
