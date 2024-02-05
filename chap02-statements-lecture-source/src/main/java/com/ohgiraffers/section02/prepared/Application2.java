@@ -34,7 +34,6 @@ public class Application2 {
         try {
             pstmt = con.prepareStatement(query);
 
-            /* 필기. placeholder 위치(1)에 다음 값을 대입 (+ 또한 자동으로 '을 붙여줌) */
             pstmt.setString(1, empId);
             pstmt.setString(2, entYN);
 
